@@ -61,5 +61,5 @@ h2 {
 }
 
 .form-control.error input{
-    border-color: tomato;
+    border-color: rgb(219, 60, 32);
 }
