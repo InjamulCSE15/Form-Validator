@@ -47,4 +47,7 @@ h2 {
     border-radius: 4px;
     display: block;
     width: 100%;
+    padding: 8px;
+    font-size: 14px;
+
 }
