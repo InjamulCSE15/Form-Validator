@@ -62,14 +62,14 @@ h2 {
 }
 
 .form-control.success input {
-    border-color:springgreen;
+    border-color:var(--success-color);
 }
 
 .form-control.error input{
-    border-color: rgb(219, 60, 32);
+    border-color: var(--error-color);
 }
 
 .form-control small {
-    color:rgb(219, 60, 32);
+    color: var(--error-color);
     font-weight: bold;
 }
