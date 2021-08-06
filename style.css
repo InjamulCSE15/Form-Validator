@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
+:root {
+    --success-color: springgreen;
+    --error-color: rgb(219, 60, 32);
+}
+
 * {
     box-sizing: border-box;
 }
@@ -62,4 +67,9 @@ h2 {
 
 .form-control.error input{
     border-color: rgb(219, 60, 32);
+}
+
+.form-control small {
+    color:rgb(219, 60, 32);
+    font-weight: bold;
 }
