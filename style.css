@@ -84,13 +84,18 @@ h2 {
 
 .form button {
     cursor: pointer;
-    background-color: #3498db;
-    border: 2px solid #3498db;
+    border: 2px solid rgba(139, 0, 0, 0.493);
+    background-color: rgb(255, 0, 0);
     border-radius: 5px;
     color: #fff;
     display: block;
-    font-size: 16px;
+    font-size: 20px;
     padding: 10px;
     margin-top: 20px;
     width: 100%;
+}
+
+.form button:hover {
+    border: 2px solid rgba(0, 0, 139, 0.493);
+    background-color: blue;
 }
