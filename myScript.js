@@ -60,6 +60,12 @@ function passwordMatch(input1, input2) {
     if (input1.value !== input2.value) {
         showError(input2, 'Password do not match');
     } 
+    else if (input2.value === '') {
+        showError(input2, 'Please re-type your password.');
+    }
+    else{
+        showSuccess(input2);
+    }
 }
 
 // Get Field Name:
@@ -72,7 +78,7 @@ form.addEventListener('submit', function(e){
     e.preventDefault();
     // console.log(username.value);
 
-    checkRequired([username, email, password, password2]);
+    checkRequired([username, email, password]);
     checkLength(username, 5, 15);
     checkLength(password, 8, 20);
     checkEmail(email);
